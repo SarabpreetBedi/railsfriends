@@ -1,0 +1,19 @@
+<div class="card">
+  <div class="card-header text-primary">
+    <h4>Search Friend Results</h4>
+  </div>
+  <div class="card-body">
+   <h5 class="card-title ">
+      <% @friends.each do |friend| %>
+         <ul>
+         <li class="text-danger"><p class="text-info"><%= friend.first_name %></p> </li>
+        </ul>
+         
+       <% end %>  
+    </h5>
+  </div>
+</div>
+
+
+<body class="searchpage">
+</body>
